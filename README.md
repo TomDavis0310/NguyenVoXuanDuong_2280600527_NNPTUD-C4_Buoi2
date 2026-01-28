@@ -1,1 +1,1 @@
-# NguyenVoXuanDuong_2280600527_NNPTUD-C4_Buoi2
+NguyenVoXuanDuong 2280600527

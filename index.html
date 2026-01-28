@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Danh Sách Sản Phẩm</h1>
+            <div class="filter-section">
+                <select id="categoryFilter">
+                    <option value="">Tất cả danh mục</option>
+                </select>
+                <input type="text" id="searchInput" placeholder="Tìm kiếm sản phẩm...">
+            </div>
+        </header>
+
+        <div id="productContainer" class="product-grid">
+            <!-- Products will be displayed here -->
+        </div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            Không tìm thấy sản phẩm nào
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
